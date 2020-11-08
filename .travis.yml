@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+#
+# Copyright (C) 2020 Mojib Wali.
+
+notifications:
+  email: false
+
+sudo: true
+
+language: python
+
+python:
+  - "3.7"
+
+services:
+  - docker
+
+before_script:
+  - gem install awesome_bot
+
+script:
+  - ./run-tests.sh
