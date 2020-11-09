@@ -2,3 +2,21 @@ site_name: README
 
 theme:
   name: material
+  palette:
+    primary: 'black'
+  font:
+    text: 'Open Sans'
+    code: 'Roboto Mono'
+# Customization
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: 'https://github.com/mb-wali'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

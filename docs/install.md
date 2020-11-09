@@ -1,19 +1,24 @@
-# install mkdocs
+# Getting Started MkDocs
+
+## Install mkdocs
 ```pip install mkdocs```
-# generate your project
+
+## Generate your project
 ```mkdocs new docs-deploy-invenio```
-# run 
+
+## Run 
 ```cd docs-deploy-invenio```
+
 ```mkdocs serve```
 
-Once running, visit http://127.0.0.1:8000 in your browser.
+Once running, visit [http://127.0.0.1:8000]() in your browser.
 
-![](./images/localhost8000.JPG?raw=true)
+![](images/localhost8000.jpg?raw=true)
 
-
-# Add [Material](https://squidfunk.github.io/mkdocs-material/)
+## Add [Material](https://squidfunk.github.io/mkdocs-material/)
 ```pip install mkdocs-material```
-## Add theme
+
+### Add theme
 ```
 ./mkdocs.yml
 theme:
