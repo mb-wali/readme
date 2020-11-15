@@ -1,5 +1,8 @@
 site_name: README
 
+# Copyright
+copyright: 'Copyright &copy; 2020 Mojib Wali.'
+
 theme:
   name: material
   palette:
@@ -7,12 +10,24 @@ theme:
   font:
     text: 'Open Sans'
     code: 'Roboto Mono'
+  features:
+    - navigation.tabs
+  custom_dir: 'overrides'
 # Customization
 extra:
   social:
   - icon: fontawesome/brands/github-alt
     link: 'https://github.com/mb-wali'
+extra_css:
+  - stylesheets/custom.css
 
+nav:
+  - Home: 'index.md'
+  - Mkdocs:
+    - Getting Started: 'mkdocs/install.md'
+  - FAQ: 'FAQ.md'
+
+# Extensions
 # Extensions
 markdown_extensions:
   - admonition
@@ -20,3 +35,4 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+
