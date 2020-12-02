@@ -36,3 +36,5 @@ markdown_extensions:
   - toc:
       permalink: true
 
+# exposing 8080
+dev_addr: '0.0.0.0:8080'
