@@ -5,7 +5,7 @@
 # python 3.8
 FROM python:3.8.6
 
-COPY ./ /readme/
+COPY ./ .
 WORKDIR /readme/
 RUN pip install -r requirements.txt
 EXPOSE 8080
